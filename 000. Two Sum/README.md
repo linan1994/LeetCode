@@ -1,7 +1,30 @@
 # Python
 class Solution(object) 
 
-class后面紧接着是类名，Solution，类名通常是大写开头的单词，紧接着是(object)，表示该类是从哪个类继承下来的，继承的概念我们后面再讲，通常，如果没有合适的继承类，就使用object类，这是所有类最终都会继承的类。
+class后面紧接着是类名 Solution，类名通常是大写开头的单词，紧接着是(object)，表示该类是从哪个类继承下来的，继承的概念我们后面再讲，通常，如果没有合适的继承类，就使用object类，这是所有类最终都会继承的类。
+
+# Create the class
+class Arithmetic:
+
+    def Add(self, x, y):
+        return x + y
+
+    def Subtract(self, x, y):
+        return x - y
+				
+    def Multiply(self, x, y):
+        return x * y
+
+    def Divide(self, x, y):
+        return x / y
+
+# Object 1
+a = Arithmetic()
+print(a.Add(2, 3))
+print(a.Subtract(8, 300))
+print(a.Multiply(2, 3))
+print(a.Divide(30, 5))
+
 
 # 思路(C++)
 
