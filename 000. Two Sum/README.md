@@ -1,3 +1,8 @@
+# Python
+class Solution(object) 
+
+class后面紧接着是类名，Solution，类名通常是大写开头的单词，紧接着是(object)，表示该类是从哪个类继承下来的，继承的概念我们后面再讲，通常，如果没有合适的继承类，就使用object类，这是所有类最终都会继承的类。
+
 # 思路(C++)
 
 好久没登录 LeetCode, 今天一登录，发现 No. 1 的题目都没做。惭愧，而且还是个 Easy 的。
